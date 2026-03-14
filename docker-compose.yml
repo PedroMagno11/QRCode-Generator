@@ -1,0 +1,9 @@
+services:
+  qr-code-app:
+    build: .
+    container_name: qr-code-app
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "${HOST_PORT}:3000"

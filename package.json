@@ -1,0 +1,14 @@
+{
+  "name": "qr-code-docker-app",
+  "version": "1.0.0",
+  "description": "Gerador de QR Code com Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4"
+  }
+}
